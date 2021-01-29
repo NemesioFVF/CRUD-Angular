@@ -1,0 +1,15 @@
+.text {
+    letter-spacing: 0.2rem;
+}
+
+.verticalMiddle {
+    vertical-align: middle;
+}
+
+.footer {
+    z-index: 1;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    bottom: 0;
+}
