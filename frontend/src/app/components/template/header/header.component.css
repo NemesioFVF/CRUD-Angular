@@ -15,3 +15,11 @@
 .example-icon {
     margin: 0.2rem;
 }
+
+mat-toolbar-row span a i {
+    color: #fff;
+}
+
+mat-toolbar-row span {
+    font-size: small;
+}
