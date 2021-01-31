@@ -9,10 +9,8 @@
     --primary-color: #c2185b;
 }
 
-html, body { height: 100%; }
 body {
     background: #bebebe;
-    margin: 0;
     font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
@@ -27,7 +25,3 @@ body {
 .material-icons {
     margin: 0.2rem;
 }
-
-
-
-
