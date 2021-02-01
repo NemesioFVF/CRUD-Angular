@@ -1,23 +1,25 @@
 {
-    "products": [
+    "students": [
         {
             "id": "1",
-            "name": "Notebook Samsung",
-            "price": 1999.00
+            "name": "Vagner Treguas",
+            "age": 30,
+            "developer": "Front-End",
+            "skill": "HTML | CSS | JavaScript | Angular"
         },
         {
-
             "id": "2",
-            "name": "Notebook Dell",
-            "price": 2999.00
-
+            "name": "Lucas Santos",
+            "age": 23,
+            "developer": "Front-End",
+            "skill": "HTML | CSS | JavaScript | Angular"
         },
         {
-
-
             "id": "3",
-            "name": "Notebook Apple",
-            "price": 10999.00
-        }   
+            "name": "Nemésio Florêncio",
+            "age": 18,
+            "developer": "Front-End",
+            "skill": "HTML | CSS | JavaScript | Angular"
+        }
     ]
 }
