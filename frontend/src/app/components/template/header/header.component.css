@@ -23,3 +23,16 @@ mat-toolbar-row span a i {
 mat-toolbar-row span {
     font-size: small;
 }
+
+.text {
+    color: #1d1c1c;
+    padding: 1.1rem;
+}
+
+.text:hover {
+    color: #303030;
+}
+
+.text i {
+    margin-right: 1.1rem;
+}

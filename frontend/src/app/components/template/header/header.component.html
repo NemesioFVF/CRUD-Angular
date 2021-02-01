@@ -8,11 +8,24 @@
             
         </a>
         </span>
+        <span>Encontre um Beginner da Faculdade IV2</span>
         <span class="spacer"></span>
       </mat-toolbar-row>
       <!--Divisão do Menu-->
       <mat-toolbar-row>
-        <span>Encontre um Beginner da Faculdade IV2</span>
+        
+        <a  routerLink="/" class="text">
+          <i class="material-icons" style="color: #fff">
+              home
+          </i>
+          Início
+      </a>
+      <a routerLink="/students" class="text">
+          <i class="material-icons" style="color: #fff">
+              school
+          </i>
+          Alunos
+      </a>
         <span class="spacer"></span>
         <button mat-icon-button class="example-icon favorite-icon primary" aria-label="Example icon-button with heart icon" style="background:aqua">
           <mat-icon>favorite</mat-icon>
@@ -20,5 +33,9 @@
         <button mat-icon-button class="example-icon primary" aria-label="Example icon-button with share icon" style="background:aqua">
           <mat-icon>share</mat-icon>
         </button>
+
       </mat-toolbar-row>
+
+
+      
     </mat-toolbar>

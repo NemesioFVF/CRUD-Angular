@@ -37,7 +37,7 @@ mat-grid-tile img {
     justify-content: center;
     text-decoration: none;
     transition: background 0.2s;
-    color: var(--color-button-text);
+    color: #1d1c1c;
   }
   
   .buttons-container a img {

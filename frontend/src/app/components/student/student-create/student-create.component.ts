@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { StudentService } from '../student.service';
 import { Router } from '@angular/router';
+import { Student } from './../student.model';
+
 
 
 @Component({
@@ -10,6 +12,13 @@ import { Router } from '@angular/router';
 })
 export class StudentCreateComponent implements OnInit {
 
+  student: Student = {
+    name: '',
+    age: null,
+    developer: '',
+    skills: ''
+  }
+
   constructor(private studentService: StudentService, 
               private router: Router) { }
 
@@ -18,7 +27,10 @@ export class StudentCreateComponent implements OnInit {
   }
 
   createStudent(): void {
-    this.studentService.showMessage('Aluno criado com sucesso!')
+    this.studentService.create(this.student).subscribe(()=> {
+      this.studentService.showMessage('Aluno criado com sucesso!')
+      this.router.navigate(['/students'])
+    })
   }
 
   cancel(): void {
