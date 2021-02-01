@@ -1,25 +1,25 @@
 {
-    "students": [
-        {
-            "id": "1",
-            "name": "Vagner Treguas",
-            "age": 30,
-            "developer": "Front-End",
-            "skill": "HTML | CSS | JavaScript | Angular"
-        },
-        {
-            "id": "2",
-            "name": "Lucas Santos",
-            "age": 23,
-            "developer": "Front-End",
-            "skill": "HTML | CSS | JavaScript | Angular"
-        },
-        {
-            "id": "3",
-            "name": "Nemésio Florêncio",
-            "age": 18,
-            "developer": "Front-End",
-            "skill": "HTML | CSS | JavaScript | Angular"
-        }
-    ]
+  "students": [
+    {
+      "id": "1",
+      "name": "Vagner Treguas",
+      "age": 30,
+      "developer": "Front-End",
+      "skill": "HTML | CSS | JavaScript | Angular"
+    },
+    {
+      "id": "2",
+      "name": "Lucas Santos",
+      "age": 23,
+      "developer": "Front-End",
+      "skill": "HTML | CSS | JavaScript | Angular"
+    },
+    {
+      "id": "3",
+      "name": "Nemésio Florêncio",
+      "age": 18,
+      "developer": "Front-End",
+      "skill": "HTML | CSS | JavaScript | Angular"
+    }
+  ]
 }
