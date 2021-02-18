@@ -1,4 +1,6 @@
 import { NgModule } from '@angular/core';
+import { DataBindingComponent } from './app';
+import {FormsModule} from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -19,10 +21,12 @@ import { ForDirective } from './directives/for.directive';
 import { StudentCreateComponent } from './components/student/student-create/student-create.component';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { HttpClientModule }from '@angular/common/http';
+import {MatFormFieldModule} from '@angular/material/form-field';
 
 @NgModule({
   declarations: [
     AppComponent,
+    DataBindingComponent,
     HeaderComponent,
     FooterComponent,
     NavComponent,
@@ -30,9 +34,10 @@ import { HttpClientModule }from '@angular/common/http';
     StudentComponent,
     RedDirective,
     ForDirective,
-    StudentCreateComponent
+    StudentCreateComponent,
   ],
   imports: [
+    FormsModule,
     BrowserModule,
     BrowserAnimationsModule,
     MatToolbarModule,
@@ -43,7 +48,8 @@ import { HttpClientModule }from '@angular/common/http';
     AppRoutingModule,
     MatGridListModule,
     MatSnackBarModule,
-    HttpClientModule
+    HttpClientModule,
+    MatFormFieldModule
     
   ],
   providers: [],

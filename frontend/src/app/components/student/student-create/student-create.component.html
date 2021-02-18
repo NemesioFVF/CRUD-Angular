@@ -1,12 +1,31 @@
 <div class="content">
 
-
-<button mat-raised-button (click)="createStudent()" color="primary">
-    Criar Aluno
-</button>
-
-<button mat-raised-button (click)="cancel()" color="primary">
-    Cancelar
-</button>
+    <mat-card>
+        <mat-card-title>
+            Novo Produto
+        </mat-card-title>
+        <form>
+            <mat-form-field>
+                <input matInput placeholder="Nome do Aluno" [(ngModel)]="student.name" name="name">
+            </mat-form-field>
+            <mat-form-field>
+                <input matInput placeholder="Nome do Aluno" [(ngModel)]="student.age" name="age">
+            </mat-form-field>
+            <mat-form-field>
+                <input matInput placeholder="Nome do Aluno" [(ngModel)]="student.developer" name="developer">
+            </mat-form-field>
+            <mat-form-field>
+                <input matInput placeholder="Nome do Aluno" [(ngModel)]="student.skills" name="skills">
+            </mat-form-field>
+ 
+        </form>
+        <button mat-raised-button (click)="createStudent()" color="primary">
+            Criar Aluno
+        </button>
+        
+        <button mat-raised-button (click)="cancel()" color="primary">
+            Cancelar
+        </button>
+    </mat-card>
 
 </div>
