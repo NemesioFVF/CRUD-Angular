@@ -1,37 +1,121 @@
 .content .title {
-    font-size: 3rem;
-    font-weight: 300;
-    line-height: 1.2;
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.2;
 }
 
 .content .subtitle {
-    font-style: 1.1rem;
+  font-style: 1.1rem;
 }
 
 .content {
-    width: 80vw;
-    height: 80vh;
+  width: 80vw;
+  height: 80vh;
 }
 
-mat-grid-tile img {
-    background-repeat: no-repeat;
-    width: 55%;
-    background-size: cover;
+.grid-list {
+  padding: 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+.figure img {
+  margin-top: 2.4rem;
+  margin-left: 30%;
+  background-repeat: no-repeat;
+  width: 55%;
+  background-size: cover;
+}
 
 .buttons-container {
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-end;
+  margin: 3.2rem 0;
+}
+
+.buttons-container a {
+  margin-top: 1.4rem;
+  width: 20rem;
+  height: 7.4rem;
+  border-radius: 0.8rem;
+  margin-right: 1.6rem;
+  font: 700 2.4rem "Titillium Web", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: background 0.2s;
+  color: #1d1c1c;
+}
+
+.buttons-container a img {
+  width: 4rem;
+  margin-right: 2.4rem;
+}
+
+.buttons-container a.cadastro {
+  background: #01a2be;
+}
+
+.buttons-container a.cadastro:hover {
+  background: #3dbefa;
+}
+
+.buttons-container a.consulta {
+  background: #f7a800;
+  margin-right: 0;
+}
+
+.buttons-container a.consulta:hover {
+  background: #faea09;
+}
+
+@media (max-width: 1100px) {
+  .content .title {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+
+  .content .subtitle {
+    font-style: 1.1rem;
+  }
+
+  .content {
+    width: 80vw;
+    height: 80vh;
+  }
+
+  .grid-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .figure img {
+    margin-top: 2.4rem;
+    margin-left: 30%;
+    background-repeat: no-repeat;
+    width: 95%;
+    background-size: cover;
+  }
+
+  .buttons-container {
+    flex-direction: column;
     display: flex;
     justify-content: flex-end;
     margin: 3.2rem 0;
   }
-  
+
   .buttons-container a {
+    margin-top: 1.4rem;
     width: 20rem;
     height: 7.4rem;
     border-radius: 0.8rem;
     margin-right: 1.6rem;
-    font: 700 2.4rem 'Titillium Web', sans-serif;
+    font: 700 2.4rem "Titillium Web", sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,25 +123,103 @@ mat-grid-tile img {
     transition: background 0.2s;
     color: #1d1c1c;
   }
-  
+
   .buttons-container a img {
     width: 4rem;
     margin-right: 2.4rem;
   }
-  
+
   .buttons-container a.cadastro {
     background: #01a2be;
   }
-  
+
   .buttons-container a.cadastro:hover {
     background: #3dbefa;
   }
-  
+
   .buttons-container a.consulta {
     background: #f7a800;
     margin-right: 0;
   }
-  
+
   .buttons-container a.consulta:hover {
     background: #faea09;
   }
+}
+
+@media (max-width: 768px) {
+  div .content {
+    position: relative;
+  }
+
+  .grid-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .figure img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
+    margin: 0 0 1.4rem 0.3rem;
+    /* background-repeat: no-repeat;
+    width: 70%;
+    background-size: cover;
+    margin-bottom: 1.4rem; */
+  }
+
+  .buttons-container {
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-end;
+    margin: 3.2rem 0;
+  }
+
+  .buttons-container a {
+    margin-top: 1.4rem;
+    width: 20rem;
+    height: 7.4rem;
+    border-radius: 0.8rem;
+    margin-right: 1.6rem;
+    font: 700 2.4rem "Titillium Web", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background 0.2s;
+    color: #1d1c1c;
+  }
+
+  .buttons-container a img {
+    width: 4rem;
+    margin-right: 2.4rem;
+  }
+
+  .buttons-container a.cadastro {
+    background: #01a2be;
+  }
+
+  .buttons-container a.cadastro:hover {
+    background: #3dbefa;
+  }
+
+  .buttons-container a.consulta {
+    background: #f7a800;
+    margin-right: 0;
+  }
+
+  .buttons-container a.consulta:hover {
+    background: #faea09;
+  }
+}
+
+@media (max-width: 600px) {
+  .figure img {
+    display: none;
+  }
+}
