@@ -22,6 +22,7 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { HttpClientModule }from '@angular/common/http';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { StudentReadComponent } from './components/student/student-read/student-read.component';
+import {MatTableModule} from '@angular/material/table';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,8 @@ import { StudentReadComponent } from './components/student/student-read/student-
     MatGridListModule,
     MatSnackBarModule,
     HttpClientModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    MatTableModule
     
   ],
   providers: [],

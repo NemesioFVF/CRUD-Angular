@@ -5,21 +5,28 @@
       "name": "Vagner Treguas",
       "age": 30,
       "developer": "Front-End",
-      "skill": "HTML | CSS | JavaScript | Angular"
+      "skills": "HTML | CSS | JavaScript | Angular"
     },
     {
       "id": "2",
       "name": "Lucas Santos",
       "age": 23,
       "developer": "Front-End",
-      "skill": "HTML | CSS | JavaScript | Angular"
+      "skills": "HTML | CSS | JavaScript | Angular"
     },
     {
       "id": "3",
       "name": "Nemésio Florêncio",
       "age": 18,
-      "developer": "Front-End",
-      "skill": "HTML | CSS | JavaScript | Angular"
+      "developer": "Front-End, Backend",
+      "skills": "HTML | CSS | JavaScript | Angular"
+    },
+    {
+      "name": "Gabriel Schin",
+      "age": "35",
+      "developer": "Backend",
+      "skills": "HTML | CSS | JavaScript | Angular | Node",
+      "id": "O-Q4y_w"
     }
   ]
 }
