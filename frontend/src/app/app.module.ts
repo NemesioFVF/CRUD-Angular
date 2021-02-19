@@ -1,5 +1,4 @@
 import { NgModule } from '@angular/core';
-import { DataBindingComponent } from './app';
 import {FormsModule} from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
@@ -22,11 +21,11 @@ import { StudentCreateComponent } from './components/student/student-create/stud
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { HttpClientModule }from '@angular/common/http';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import { StudentReadComponent } from './components/student/student-read/student-read.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DataBindingComponent,
     HeaderComponent,
     FooterComponent,
     NavComponent,
@@ -35,6 +34,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     RedDirective,
     ForDirective,
     StudentCreateComponent,
+    StudentReadComponent,
   ],
   imports: [
     FormsModule,

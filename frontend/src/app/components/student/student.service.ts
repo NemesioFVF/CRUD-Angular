@@ -24,4 +24,8 @@ export class StudentService {
   create(student: Student): Observable<Student> {
     return this.http.post<Student>(this.url, student)
   }
+
+  read(): Observable<Student[]> {
+    return this.http.get<Student[]>(this.url)
+  }
 }
