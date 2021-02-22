@@ -1,32 +1,18 @@
 {
   "students": [
     {
-      "id": "1",
       "name": "Vagner Treguas",
-      "age": 30,
-      "developer": "Front-End",
-      "skills": "HTML | CSS | JavaScript | Angular"
-    },
-    {
-      "id": "2",
-      "name": "Lucas Santos",
-      "age": 23,
-      "developer": "Front-End",
-      "skills": "HTML | CSS | JavaScript | Angular"
-    },
-    {
-      "id": "3",
-      "name": "Nemésio Florêncio",
-      "age": 18,
-      "developer": "Front-End, Backend",
-      "skills": "HTML | CSS | JavaScript | Angular"
+      "age": "30 Anos",
+      "developer": "Front - End",
+      "skills": "HTML | CSS | JavaScript | Angular | Node",
+      "id": 1
     },
     {
       "name": "Gabriel Schin",
-      "age": "35",
+      "age": "18 Anos",
       "developer": "Backend",
       "skills": "HTML | CSS | JavaScript | Angular | Node",
-      "id": "O-Q4y_w"
+      "id": 2
     }
   ]
 }

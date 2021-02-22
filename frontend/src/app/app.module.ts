@@ -23,6 +23,8 @@ import { HttpClientModule }from '@angular/common/http';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { StudentReadComponent } from './components/student/student-read/student-read.component';
 import {MatTableModule} from '@angular/material/table';
+import { StudentUpdateComponent } from './components/student/student-update/student-update.component';
+import { StudentDeleteComponent } from './components/student/student-delete/student-delete.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +38,8 @@ import {MatTableModule} from '@angular/material/table';
     ForDirective,
     StudentCreateComponent,
     StudentReadComponent,
+    StudentUpdateComponent,
+    StudentDeleteComponent,
   ],
   imports: [
     FormsModule,

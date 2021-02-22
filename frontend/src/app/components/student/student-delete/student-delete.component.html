@@ -1,0 +1,37 @@
+<p>student-delete works!</p>
+<div class="content">
+    <mat-card>
+        <mat-card-title>
+            Deletar Aluno
+        </mat-card-title>
+        <form>
+            <mat-form-field>
+                <label for="name">Nome do Aluno</label>
+                <input matInput [(ngModel)]="student.name" name="name" disabled>
+            </mat-form-field>
+            <mat-form-field>
+                <label for="name">Idade do Aluno</label>
+                <input matInput [value]="student.age" name="age" disabled>
+            </mat-form-field>
+            <mat-form-field>
+                <label for="name">Desenvolvedor (ex. Front-End)</label>
+                <input matInput [value]="student.developer" name="developer" disabled>
+            </mat-form-field>
+            <mat-form-field>
+                <label for="name">Skills (ex. Html, CSS, JavaScript)</label>
+                <input matInput [value]="student.skills" name="skills"disabled>
+            </mat-form-field> 
+        </form>
+        <div class="buttons-container">
+            <button class="criarAluno" mat-raised-button (click)="deleteStudent()" color="primary">
+                Excluir Aluno
+            </button>
+            
+            <button class="cancelar" mat-raised-button (click)="cancel()" color="primary">
+                Cancelar
+            </button>
+        </div>
+    </mat-card>
+
+
+</div>

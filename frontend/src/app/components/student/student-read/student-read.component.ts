@@ -10,7 +10,7 @@ import { Student } from './../student.model';
 export class StudentReadComponent implements OnInit {
   //student.model
   students: Student[]
-  displayedColumns = ['id', 'name', 'age', 'developer', 'skills' ]
+  displayedColumns = ['id', 'name', 'age', 'developer', 'skills', 'action' ]
 
   constructor(private studentService: StudentService) {
     this.studentService.read().subscribe(students => {
