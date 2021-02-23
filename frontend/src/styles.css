@@ -1,27 +1,37 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
 :root {
-    --primary-color: #c2185b;
+  --primary-color: #c2185b;
 }
 
 body {
-    background: #bebebe;
-    font-family: Roboto, "Helvetica Neue", sans-serif;
+  background: #bebebe;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
 .primary {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 .aqua {
-    color: aqua;
+  color: aqua;
 }
 
 .material-icons {
-    margin: 0.2rem;
+  margin: 0.2rem;
+}
+
+.msg-success {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.msg-success {
+  background-color: #e35e6b;
+  color: #fff;
 }
